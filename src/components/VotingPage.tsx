@@ -115,12 +115,12 @@ export default function VotingPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-black flex items-center justify-center px-4 py-8">
+    <div className="min-h-screen bg-gradient-to-br to-black from-red-950 to-black flex items-center justify-center px-4 py-8">
       <div className="max-w-4xl w-full">
         <div className="text-center mb-12">
           <Music className="w-20 h-20 text-red-500 mx-auto mb-6 animate-pulse" />
           <h1 className="text-5xl md:text-6xl font-black text-white mb-4 tracking-tight">
-            RAP BATTLE
+            RAMASS TA PROD
           </h1>
           <h2 className="text-2xl md:text-3xl font-bold text-red-500 mb-2">
             {round.name}
@@ -151,7 +151,7 @@ export default function VotingPage() {
                 key={verseNumber}
                 onClick={() => handleVote(verseNumber)}
                 disabled={voting}
-                className="group relative bg-gradient-to-br from-gray-800 to-gray-900 hover:from-red-600 hover:to-red-800 border-4 border-red-500 rounded-2xl p-8 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-red-500/50 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+                className="group relative bg-gradient-to-br from-black to-black hover:from-red-600 hover:to-red-800 border-4 border-red-500 rounded-2xl p-8 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-red-500/50 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
               >
                 <div className="text-center">
                   <div className="text-7xl font-black text-white mb-4 group-hover:scale-110 transition-transform">
